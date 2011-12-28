@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Add Site"
+              android:id="@+id/menuAdd">
+        </item>
+        <item android:title="Setting"
+              android:id="@+id/menuSetting"
+              android:showAsAction="ifRoom|withText" >
+        </item>
+        <item android:title="About"
+              android:id="@+id/meunAbout" >
+        </item>
+        <item android:title="Exit"
+              android:id="@+id/menuExit">
+        </item>
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salt Pass</string>
+    <string name="about_text">Salt Pass \nProtect your password \nVer 0.1 \n</string>
+</resources>

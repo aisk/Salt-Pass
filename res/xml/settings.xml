@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<PreferenceScreen    
+    xmlns:android="http://schemas.android.com/apk/res/android">    
+	
+	<PreferenceCategory
+		android:title="Salt Setting">
+		
+		<EditTextPreference
+			android:title="Secret Salt Key"
+			android:key="SALT_STRING"
+			android:summary="A salt key to protect your password"/>
+			
+	</PreferenceCategory>
+</PreferenceScreen>   
