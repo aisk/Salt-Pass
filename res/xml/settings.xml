@@ -3,12 +3,31 @@
     xmlns:android="http://schemas.android.com/apk/res/android">    
 	
 	<PreferenceCategory
-		android:title="Salt Setting">
+		android:title="Salt Settings">
 		
 		<EditTextPreference
 			android:title="Secret Salt Key"
-			android:key="SALT_STRING"
+            android:key="SALT_STRING"
 			android:summary="A salt key to protect your password"/>
-			
+
+    </PreferenceCategory>
+
+	<PreferenceCategory
+        android:title="Password Settings">
+
+		<EditTextPreference
+			android:title="Salted password length"
+            android:key="SALTED_COUNT"
+            android:defaultValue="100"
+            android:inputType="number"
+            android:summary="Limit of the salted password,any word will be omitted which is over it"/>
+
+		<EditTextPreference
+			android:title="Salted password offset"
+            android:key="SALTED_OFFSET"
+            android:defaultValue="0"
+            android:inputType="number"
+            android:summary="Offset of the salted password"/>
+
 	</PreferenceCategory>
 </PreferenceScreen>   

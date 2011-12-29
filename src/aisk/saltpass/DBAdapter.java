@@ -37,10 +37,13 @@ public class DBAdapter {
         return db.insert(DATABASE_TABLE, null, siteValue);
     }
 
+    public boolean deleteSite(long id) {
+        return db.delete(DATABASE_TABLE, "_id=" + id, null) > 0;
+    }
+
     public Cursor getAllSitesCursor() {
         //WTF.....
-        Cursor cursor = db.query(DATABASE_TABLE, null, null, null, null, null, null);
-        return cursor;
+        return db.query(DATABASE_TABLE, null, null, null, null, null, null);
     }
 
     public void close() {
