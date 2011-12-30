@@ -97,7 +97,8 @@ public class Main extends Activity
                             int count = Integer.valueOf(prefs.getString("SALTED_COUNT", "100"));
                             int offset = Integer.valueOf(prefs.getString("SALTED_OFFSET", "0"));
                             String pass = salt + ((TextView)view).getText().toString() + pswd;
-                            final String saltedPass = Utils.limitCut(Utils.shaConvert(pass, "sha1"),
+                            String saltType = prefs.getString("SALT_TYPE", "SHA-1");
+                            final String saltedPass = Utils.limitCut(Utils.shaConvert(pass, saltType),
                                 count, offset);
                             AlertDialog resultDialog = new AlertDialog.Builder(Main.this)
                                 .setTitle("Salted password")

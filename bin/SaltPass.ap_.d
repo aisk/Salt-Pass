@@ -1,6 +1,7 @@
 /home/aisk/Projects/saltpass/bin/SaltPass.ap_ \
  : /home/aisk/Projects/saltpass/res/menu/menu.xml \
 /home/aisk/Projects/saltpass/res/values/strings.xml \
+/home/aisk/Projects/saltpass/res/values/arrays.xml \
 /home/aisk/Projects/saltpass/res/drawable-hdpi/ic_launcher.png \
 /home/aisk/Projects/saltpass/res/drawable-hdpi/setting.png \
 /home/aisk/Projects/saltpass/res/drawable-hdpi/addsite.png \

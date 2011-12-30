@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<resources>    
+    <string-array name="salt_type_options">    
+        <item>SHA-1</item>    
+        <item>SHA-256</item>    
+        <item>SHA-384</item>    
+        <item>SHA-512</item>    
+        <item>MD5</item>    
+    </string-array>    
+    <string-array name="salt_type_values">    
+        <item>SHA-1</item>    
+        <item>SHA-256</item>    
+        <item>SHA-384</item>    
+        <item>SHA-512</item>    
+        <item>MD5</item>    
+    </string-array>    
+</resources>   

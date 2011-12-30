@@ -28,6 +28,15 @@
             android:defaultValue="0"
             android:inputType="number"
             android:summary="Offset of the salted password"/>
+    
+        <ListPreference
+            android:title="Salt type"
+            android:key="SALT_TYPE"
+            android:summary="Choose salt type"
+            android:entries="@array/salt_type_options"
+            android:entryValues="@array/salt_type_values"
+            android:dialogTitle="Choose salt type"
+            android:defaultValue="SHA1" />
 
 	</PreferenceCategory>
 </PreferenceScreen>   
